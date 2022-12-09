@@ -588,9 +588,9 @@
             this.Time.ForeColor = System.Drawing.Color.White;
             this.Time.Location = new System.Drawing.Point(203, 5);
             this.Time.Name = "Time";
-            this.Time.Size = new System.Drawing.Size(210, 40);
+            this.Time.Size = new System.Drawing.Size(211, 40);
             this.Time.TabIndex = 1693;
-            this.Time.Text = "12:19:11 PM";
+            this.Time.Text = "10:23:59 AM";
             // 
             // label1
             // 
@@ -884,7 +884,7 @@
             this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label6.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(294, 22);
+            this.label6.Location = new System.Drawing.Point(290, 35);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(260, 45);
             this.label6.TabIndex = 1752;
@@ -896,9 +896,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.cold_store_2_temp_h_val);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(259, 76);
+            this.groupBox1.Location = new System.Drawing.Point(285, 81);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(322, 67);
+            this.groupBox1.Size = new System.Drawing.Size(270, 67);
             this.groupBox1.TabIndex = 1751;
             this.groupBox1.TabStop = false;
             // 
@@ -956,9 +956,9 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.cold_store_2_temp_c_val);
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(259, 505);
+            this.groupBox2.Location = new System.Drawing.Point(285, 506);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(322, 67);
+            this.groupBox2.Size = new System.Drawing.Size(270, 67);
             this.groupBox2.TabIndex = 1752;
             this.groupBox2.TabStop = false;
             // 
@@ -1036,8 +1036,8 @@
             // 
             // grp_cold_storage_1
             // 
-            this.grp_cold_storage_1.Controls.Add(this.groupbox_temp);
             this.grp_cold_storage_1.Controls.Add(this.label5);
+            this.grp_cold_storage_1.Controls.Add(this.groupbox_temp);
             this.grp_cold_storage_1.Controls.Add(this.groupBox6);
             this.grp_cold_storage_1.Controls.Add(this.webView23);
             this.grp_cold_storage_1.Controls.Add(this.webView24);
@@ -1054,9 +1054,9 @@
             this.groupbox_temp.Controls.Add(this.lbl_t);
             this.groupbox_temp.Controls.Add(this.cold_store_1_temp_h_val);
             this.groupbox_temp.ForeColor = System.Drawing.Color.White;
-            this.groupbox_temp.Location = new System.Drawing.Point(259, 76);
+            this.groupbox_temp.Location = new System.Drawing.Point(285, 81);
             this.groupbox_temp.Name = "groupbox_temp";
-            this.groupbox_temp.Size = new System.Drawing.Size(322, 67);
+            this.groupbox_temp.Size = new System.Drawing.Size(270, 67);
             this.groupbox_temp.TabIndex = 1748;
             this.groupbox_temp.TabStop = false;
             // 
@@ -1116,7 +1116,7 @@
             this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(289, 22);
+            this.label5.Location = new System.Drawing.Point(290, 35);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(260, 45);
             this.label5.TabIndex = 1751;
@@ -1128,9 +1128,9 @@
             this.groupBox6.Controls.Add(this.label4);
             this.groupBox6.Controls.Add(this.cold_store_1_temp_c_val);
             this.groupBox6.ForeColor = System.Drawing.Color.White;
-            this.groupBox6.Location = new System.Drawing.Point(259, 505);
+            this.groupBox6.Location = new System.Drawing.Point(285, 506);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(322, 67);
+            this.groupBox6.Size = new System.Drawing.Size(270, 67);
             this.groupBox6.TabIndex = 1751;
             this.groupBox6.TabStop = false;
             // 
@@ -1211,7 +1211,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.ClientSize = new System.Drawing.Size(1920, 1061);
             this.Controls.Add(this.grp_cold_storage_1);
             this.Controls.Add(this.grp_cold_storage_2);
             this.Controls.Add(this.txt_time_backup);
